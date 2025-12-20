@@ -1,0 +1,44 @@
+# Entorno virtual de Python
+venv/
+env/
+ENV/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archivos de distribución
+build/
+dist/
+*.egg-info/
+
+# Archivos de prueba
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archivos del IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos PDF de prueba (no subir PDFs al repositorio)
+*.pdf
+
+# Archivos Excel generados (resultados)
+*_CONSOLIDADO.xlsx
+*_DATOS_ORIGINALES.xlsx
+
+# Logs
+*.log
+
+# Variables de entorno
+.env
